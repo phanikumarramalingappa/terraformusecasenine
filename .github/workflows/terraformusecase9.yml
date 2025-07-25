@@ -10,7 +10,7 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  EKS_REPO: 911891700576.dkr.ecr.us-east-1.amazonaws.com/kubernetes-uc-9:cicd
+  EKS_REPO: 911891700576.dkr.ecr.us-east-1.amazonaws.com/kubernetes-uc-9
 
 permissions:
   id-token: write
