@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: 911891700576.dkr.ecr.us-east-1.amazonaws.com/kubernetes-uc-9:latest  # Replace with your ECR image URI
+        image: 911891700576.dkr.ecr.us-east-1.amazonaws.com/kubernetes-uc-9:cicd  # Replace with your ECR image URI
         ports:
         - containerPort: 5000
        
